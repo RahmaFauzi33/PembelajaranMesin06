@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(180deg, #f0f9ff 0%, #ecfeff 50%, #f0fdf4 100%);
+  color: #0f172a;
+  font-family: 'Poppins', sans-serif;
+}
+  
+/* Judul dan subjudul */
+.app-title {
+  font-weight: 800;
+  background: linear-gradient(90deg, #14b8a6, #4f46e5);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin: 0;
+}
+
+.app-subtitle {
+  color: #475569;
+  margin-top: 6px;
+}
+  
+  .app-card {
+    background: #ffffff;
+    border-radius: 18px;
+    backdrop-filter: blur(6px);
+    max-width: 900px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  }
+  
+  .form-dark {
+    background-color: #ffffff !important;
+    color: #0f172a;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .form-dark:focus {
+    border-color: #14b8a6;
+    box-shadow: 0 0 0 0.2rem rgba(20, 184, 166, 0.25);
+  }
+  
+  .btn-primary {
+    background: linear-gradient(90deg, #14b8a6, #4f46e5);
+    border: none;
+  }
+  
+  .btn-outline-accent {
+    border-color: #4f46e5;
+    color: #4f46e5;
+  }
+  
+  .btn-outline-accent:hover {
+    background-color: #4f46e5;
+    color: #fff;
+  }
+  
+  /* ✅ Box hasil prediksi */
+  .result-box {
+    border-radius: 12px;
+    animation: fadeIn 0.5s ease-in-out;
+    font-size: 1.1rem;
+    margin-top: 15px;
+  }
+  
+  .result-success {
+    background: linear-gradient(90deg, #ecfdf5, #d1fae5);
+    color: #065f46;
+    border: 1px solid #34d399;
+  }
+  
+  .result-danger {
+    background: linear-gradient(90deg, #fef2f2, #ffe4e6);
+    color: #991b1b;
+    border: 1px solid #f87171;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
